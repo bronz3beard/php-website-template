@@ -1,0 +1,9 @@
+{
+    "name": "phpWebsite",
+    "version": "0.0.1",
+    "description": "website template",
+    "repositories": [],
+    "require": {
+        "leafo/scssphp": "0.0.12"
+    }
+}

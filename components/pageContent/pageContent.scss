@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  /*border: 2px solid purple;*/
+
+  h1 {
+    padding: 20px;
+    margin-top: 1rem;
+    color: #000000;
+    font-family: "Amatic SC", cursive;
+  }
+
+  .image-grid {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    background-color: #172029;
+    /* border: 3px solid red; */
+
+    p {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .inline {
+      margin: 5px;
+      flex: 0 0 auto;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+.topBanner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  /* border: 2px solid green !important; */
+  box-sizing: border-box; }
+  .topBanner a {
+    height: 100%;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 0;
+    text-decoration: none;
+    font-family: "Amatic SC", cursive; }
+    .topBanner a img {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 50vh;
+      z-index: -1;
+      object-fit: cover;
+      position: relative; }
+    .topBanner a .title {
+      transform: translate(0%, -3em); }
+
+@media screen and (max-width: 40em) {
+  .bottom-section .topBanner {
+    width: auto;
+    height: 50%; }
+    .bottom-section .topBanner a .contact {
+      font-size: 0.8em;
+      transform: translate(0%, -1.5em); } }

@@ -1,7 +1,7 @@
 <?php
-    // $console_log = require '/Users/bronzebeard/Desktop/repos/PHP/website-template/utils/consoleLog.php';
+    // $console_log = require '$scssToCss = require '../../utils/consoleLog.php';
     // var_dump($console_log($title));
-    $scssToCss = require '/Users/bronzebeard/Desktop/repos/PHP/website-template/utils/scssToCss.php';
+    $scssToCss = require 'utils/scssToCss.php';
     var_dump($scssToCss(__DIR__ . '/banner.scss', __DIR__ . '/banner.css'));
 
     $bannerContent = "

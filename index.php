@@ -3,9 +3,9 @@
     require "vendor/leafo/scssphp/scss.inc.php";
     // error_reporting(E_ALL);
     // ini_set('display_errors', 1);
-    // ini_set('display_startup_errors', 1);
+    // ini_set('display_startup_errors', 1); 
 
-    $scssToCss = require '/Users/bronzebeard/Desktop/repos/PHP/website-template/utils/scssToCss.php';
+    $scssToCss = require 'utils/scssToCss.php';
     var_dump($scssToCss(__DIR__ . '/styles.scss', __DIR__ . '/styles.css'));
 ?>
 <html lang="en">

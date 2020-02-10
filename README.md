@@ -1,0 +1,1 @@
+This is just a simple wibsite template with some styles WIP.

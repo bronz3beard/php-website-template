@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "description": "website template",
     "repositories": [],
+    "scripts": {
+        "serve": "php -S localhost:9000"
+    },
     "require": {
         "leafo/scssphp": "0.0.12"
     }
